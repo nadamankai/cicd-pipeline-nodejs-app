@@ -31,7 +31,7 @@ pipeline {
             steps {
                 script {
 
-                         sh 'kubectl apply -f kubernetes-deployment.yaml'
+                         sh '/home/ubuntu/bin/kubectl apply -f kubernetes-deployment.yaml'
 
 
 
