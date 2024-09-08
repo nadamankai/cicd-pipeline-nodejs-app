@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    environment {
+    DOCKER_IMAGE = "nadamankai/nodejs-app"
+    }
+    stages {
+    stage('Checkout') {
+    steps {
+    checkout scm
+    }
+    }
+    
+  }
+  }
