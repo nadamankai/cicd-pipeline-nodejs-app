@@ -6,7 +6,7 @@ This project demonstrates a simple Node.js application built with Express.js, co
 ## Features
 - Node.js application built with Express.js.
 - Dockerized for consistent deployment.
-- Deployed in Kubernetes using Minikube for local testing.
+- Deployed in Kubernetes using Minikube for local testing .
 - Scalable to cloud-based Kubernetes clusters.
 
 ## Project Structure
